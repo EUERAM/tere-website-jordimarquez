@@ -1,126 +1,264 @@
 /* VAriables i estils */
 :root {
-	--white: rgba(255,255,255,1);
-	--green: rgba(117,191,122,1);
-	--black: rgba(0,0,0,1);
-	--light-gray: rgba(158,157,162,1);
-	--gray: rgba(139,139,165,1);
-	--dark-gray: rgba(39,32,66,1);
-	--background: rgba(249,249,249,1);
+  --white: rgba(255, 255, 255, 1);
+  --green: rgba(117, 191, 122, 1);
+  --black: rgba(0, 0, 0, 1);
+  --light-gray: rgba(158, 157, 162, 1);
+  --gray: rgba(139, 139, 165, 1);
+  --dark-gray: rgba(39, 32, 66, 1);
+  --background: rgba(249, 249, 249, 1);
 }
 .big-title {
-	font-size: 64px;
-	font-family: "Inter";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 65.91px;
-	text-decoration: none;
-	text-transform: none;
+  font-size: 64px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 65.91px;
+  text-decoration: none;
+  text-transform: none;
 }
 .normal {
-	font-size: 18px;
-	font-family: "Inter";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 26px;
-	text-decoration: none;
-	text-transform: none;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: none;
 }
 .description-hero {
-	font-size: 24px;
-	font-family: "Inter";
-	font-weight: 400;
-	font-style: normal;
-	line-height: 33px;
-	text-decoration: none;
-	text-transform: none;
-    color: var(--light-gray);
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 33px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--light-gray);
 }
-.how-it-works .description-hero{
-    text-align:center;
-    width:620px;
-    margin:auto;
+.how-it-works .description-hero {
+  text-align: center;
+  width: 620px;
+  margin: auto;
 }
 .button {
-	font-size: 24px;
-	font-family: Inter;
-	font-weight: 700;
-	font-style: normal;
-	text-decoration: none;
-	text-transform: none;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .section-title {
-	font-size: 47px;
-	font-family: Inter;
-	font-weight: 900;
-	font-style: normal;
-	line-height: 50.35px;
-	text-decoration: none;
-	text-transform: uppercase;
-    text-align:center;
+  font-size: 47px;
+  font-family: Inter;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 50.35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
 }
 .section-subtitle {
-	font-size: 22px;
-	font-family: Inter;
-	font-weight: 800;
-	font-style: normal;
-	line-height: 50.35px;
-	text-decoration: none;
-	text-transform: none;
+  font-size: 22px;
+  font-family: Inter;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 50.35px;
+  text-decoration: none;
+  text-transform: none;
 }
 .small-button {
-	font-size: 16px;
-	font-family: Inter;
-	font-weight: 700;
-	font-style: normal;
-	text-decoration: none;
-	text-transform: none;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .small {
-	font-size: 16px;
-	font-family: Inter;
-	font-weight: 400;
-	font-style: normal;
-	text-decoration: none;
-	text-transform: none;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 
-header{
-    padding-top:80px;
+header {
+  padding-top: 80px;
 }
-.container{
-    width: 1200px;
-    margin:auto;
-    
+.container {
+  width: 1200px;
+  margin: auto;
 }
-.flex{
-    display:flex;
-    justify-content: space-between;
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
-header ul{
-    display: flex;
-    padding:0;
-    list-style: none;
+header ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
 }
-header li{
-    padding:5px 30px;
+header li {
+  padding: 5px 30px;
 }
-header a{
-    color: var(--Dark-gray, #272042);
-    font-family: "Inter";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px; /* 144.444% */
-    text-decoration: none; /* treure subratllat */
+header a {
+  color: var(--Dark-gray, #272042);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  text-decoration: none; /* treure subratllat */
 }
-.green{
-    color: var(--green);
+.green {
+  color: var(--green);
+}
+
+/* Secció hero */
+.hero {
+  padding: 80px 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-hero {
+  max-width: 100%;
+  height: auto;
+  margin-right: 30px; /* marge a la dreta de la imatge */
+}
+
+.big-hero {
+  font-size: 64px;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 65.91px;
+  margin: 0 0 16px 0;
+  color: var(--dark-gray);
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 24px;
+}
+
+.store-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.store-button i {
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Secció link */
+.link {
+  padding: 60px 0;
+}
+
+.link-container {
+  background-color: var(--green);
+  border-radius: 5px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Secció link */
+
+.link .description-hero {
+  color: var(--white);
+  margin: 0;
+  flex: 1;
+  max-width: 25%;
+}
+
+.input-group {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex: 3;
+}
+
+.email-input {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: "Inter";
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  background-color: var(--white);
+  flex: 1;
+  outline: none;
+}
+
+.email-input::placeholder {
+  color: var(--gray);
+}
+
+.subscribe-button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 500;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.subscribe-button:hover {
+  background-color: var(--black);
+  transform: translateY(-2px);
+}
+
+/* Estil dels botons del header */
+header button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 500;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header button:hover {
+  background-color: var(--black);
+  transform: translateY(-2px);
 }
 
 /* Secció How Tere works */
-.how-it-works .row{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:40px;
+.how-it-works .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
